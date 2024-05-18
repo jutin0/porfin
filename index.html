@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abatidor Ziza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1 class="title">Abatidor Ziza</h1>
+        <input type="number" id="inputValue" placeholder="Valor original">
+        <input type="number" id="discount1" placeholder="Primer descuento">
+        <input type="number" id="discount2" placeholder="Segundo descuento">
+        <button onclick="calculate()">Calcular</button>
+        <div id="resultContainer">
+            <p id="result"></p>
+        </div>
+        <h3>Historial de Cálculos:</h3>
+        <ul id="historyList"></ul>
+        <h3>Total de Resultados:</h3>
+        <p id="totalSum">0.00</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
